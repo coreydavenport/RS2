@@ -26,7 +26,7 @@ font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 
 
 h1 {  
-  font-size: 12.5rem; /* 200px/16px  */
+  font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
@@ -210,4 +210,12 @@ ol, ul {
   content: "";
   display: table;
   clear: both;
+}
+
+/* MEDIA QUERIES------------------------- */
+
+@media screen and (min-width:  660px) {
+  h1 {
+    font-size: 12.5rem; /* 200px/16px  */
+  }
 }
