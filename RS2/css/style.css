@@ -215,6 +215,37 @@ a:active {
 }
 
 /* MEDIA QUERIES------------------------- */
+@media (max-width: 1024px){
+  .primary-content, .secondary-content {
+    width: 90%;
+  }
+
+}
+
+
+@media (max-width: 768px){
+  .primary-content, .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border: none;
+  }
+
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+}
+
 
 @media screen and (min-width:  660px) {
   h1 {
